@@ -5,10 +5,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "clean": "nuxt clean && rm -rf node_modules"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0"
+    "nuxt": "^3.6.0"
   },
   "dependencies": {
     "@vercel/postgres": "^0.4.0"
